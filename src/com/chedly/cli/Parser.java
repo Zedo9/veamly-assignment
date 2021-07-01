@@ -39,16 +39,23 @@ public class Parser {
 
         /* add */
         registerCommand("add <machine_id> <number_of_units>", cmdArgs -> {
-            String machineId = cmdArgs[0];
-            Integer numberOfUnits = Integer.valueOf(cmdArgs[1]);
-            commandOutput = facility.addUnitsToMachine(machineId,numberOfUnits);
+            if (cmdArgs[1].matches("\\d+")) { // Regex matching an Integer
+                Integer numberOfUnits = Integer.valueOf(cmdArgs[1]);
+                String machineId = cmdArgs[0];
+                commandOutput = facility.addUnitsToMachine(machineId,numberOfUnits);
+            } else {
+                commandOutput = "Please specify a valid number of units (Integer)";
+            }
         });
 
         /* temperature set */
         registerCommand("temperature <machine_id> <temperature>", cmdArgs -> {
-            String machineId = cmdArgs[0];
-            Float temperature = Float.valueOf(cmdArgs[1]);
-            commandOutput = facility.setTemperatureForMachine(machineId,temperature);
+            if (cmdArgs[1].matches("[+-]?([0-9]*[.])?[0-9]+")) {
+                String machineId = cmdArgs[0];
+                Float temperature = Float.valueOf(cmdArgs[1]);
+                commandOutput = facility.setTemperatureForMachine(machineId,temperature);
+            }
+            else commandOutput = "Please specify a valid temperature (Float)";
         });
 
         /* temperature get */

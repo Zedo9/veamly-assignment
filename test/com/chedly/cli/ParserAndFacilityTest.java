@@ -106,4 +106,32 @@ class ParserAndFacilityTest {
         assertEquals("120.0",parser.getOutput());
     }
 
+    @Test
+    public void addUnitsShouldOnlyAcceptIntegers(){
+        parser.parse("create MACHINE1 IDX123456");
+        parser.parse("add IDX123456 sev");
+        assertEquals("Please specify a valid number of units (Integer)",parser.getOutput());
+        parser.parse("add IDX123456 1.2");
+        assertEquals("Please specify a valid number of units (Integer)",parser.getOutput());
+        parser.parse("add IDX123456 1sqd");
+        assertEquals("Please specify a valid number of units (Integer)",parser.getOutput());
+        parser.parse("add IDX123456 20");
+        assertEquals("Machine successfully added!",parser.getOutput());
+    }
+
+    @Test
+    public void setTemperaturesShouldOnlyAcceptFloats(){
+        parser.parse("create MACHINE1 IDX123456");
+        parser.parse("temperature IDX123456 sev");
+        assertEquals("Please specify a valid temperature (Float)",parser.getOutput());
+        parser.parse("temperature IDX123456 z5z");
+        assertEquals("Please specify a valid temperature (Float)",parser.getOutput());
+        parser.parse("temperature IDX123456 20");
+        assertEquals("Temperature successfully set!",parser.getOutput());
+        parser.parse("temperature IDX123456 .2");
+        assertEquals("Temperature successfully set!",parser.getOutput());
+        parser.parse("temperature IDX123456 2.2");
+        assertEquals("Temperature successfully set!",parser.getOutput());
+    }
+
 }
