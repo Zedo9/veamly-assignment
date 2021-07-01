@@ -2,7 +2,7 @@
 
 This project is part of my application for a software engineering internship position at Veamly (Summer 2021).
 
-## Requested system :
+## Requested system
 
 - Develop a command line application to monitor the status of a manufacturing facility by tracking all the system events emitted by all the machines.
 - The application should allow the following actions:
@@ -31,7 +31,7 @@ average IDX123456 Should output 26
 
 - The required commands and their syntax are registred directly in the Parser object that I created in the Main class (Check the **void initCommands()** method).
 
-- Machines are modeled with the **Machine** Class that encapsulates their behaviour and internal.
+- Machines are modeled with the **Machine** Class that encapsulates their behaviour and internal attributes.
 
 - All Machine Objects are stored inside a **HashMap** within the **Facility** class where Keys are machineIds and Values are Machine Objects.
 
