@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15ac3710-fb3f-48d5-af5f-c871e1ec68b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15ac3710-fb3f-48d5-af5f-c871e1ec68b2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +104,7 @@
       <recent name="com.chedly.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in VeamlyAssignment">
     <configuration name="All in VeamlyAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VeamlyAssignment" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,15 +161,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.All in VeamlyAssignment" />
       <item itemvalue="JUnit.ParserAndFacilityTest" />
       <item itemvalue="JUnit.ParserAndFacilityTest.allCommandsShouldReturnNoMachineWithSuchIdForUnexistantMachines" />
       <item itemvalue="JUnit.ParserAndFacilityTest.setTemperaturesShouldOnlyAcceptFloats" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in VeamlyAssignment" />
         <item itemvalue="JUnit.ParserAndFacilityTest.setTemperaturesShouldOnlyAcceptFloats" />
         <item itemvalue="JUnit.ParserAndFacilityTest.allCommandsShouldReturnNoMachineWithSuchIdForUnexistantMachines" />

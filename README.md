@@ -41,9 +41,10 @@ average IDX123456 Should output 26
 
 ## Running and testing the app
 
+- Download the zip file and extract it somewhere.
 - Import the project to you IDE.
 - Make sure you have JUnit5 added to your classpath if you want to run tests.
-- Run the `public static void main(String[] args)` inside of the `Main` class.
+- Run the `public static void main(String[] args)` inside of the `Main` class (A run configuration compatible with Intellij is included).
 
 ## Assumptions I made from the assignment document
 
