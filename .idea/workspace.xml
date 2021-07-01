@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15ac3710-fb3f-48d5-af5f-c871e1ec68b2" name="Default Changelist" comment="" />
+    <list default="true" id="15ac3710-fb3f-48d5-af5f-c871e1ec68b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/chedly/cli/ParserAndFacilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/chedly/cli/ParserAndFacilityTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +107,7 @@
       <recent name="com.chedly.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in VeamlyAssignment">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chedly.Main" />
       <module name="VeamlyAssignment" />
@@ -114,6 +117,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in VeamlyAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VeamlyAssignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,22 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParserAndFacilityTest.machineShouldBeAddedWithSuccessMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VeamlyAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chedly.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chedly.cli" />
-      <option name="MAIN_CLASS_NAME" value="com.chedly.cli.ParserAndFacilityTest" />
-      <option name="METHOD_NAME" value="machineShouldBeAddedWithSuccessMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParserAndFacilityTest.setTemperaturesShouldOnlyAcceptFloats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VeamlyAssignment" />
       <extension name="coverage">
@@ -183,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in VeamlyAssignment" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ParserAndFacilityTest.setTemperaturesShouldOnlyAcceptFloats" />
         <item itemvalue="JUnit.ParserAndFacilityTest.allCommandsShouldReturnNoMachineWithSuchIdForUnexistantMachines" />
         <item itemvalue="JUnit.ParserAndFacilityTest" />
-        <item itemvalue="JUnit.ParserAndFacilityTest.machineShouldBeAddedWithSuccessMessage" />
       </list>
     </recent_temporary>
   </component>

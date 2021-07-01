@@ -116,7 +116,7 @@ class ParserAndFacilityTest {
         parser.parse("add IDX123456 1sqd");
         assertEquals("Please specify a valid number of units (Integer)",parser.getOutput());
         parser.parse("add IDX123456 20");
-        assertEquals("Machine successfully added!",parser.getOutput());
+        assertEquals("Number of units successfully updated!",parser.getOutput());
     }
 
     @Test
